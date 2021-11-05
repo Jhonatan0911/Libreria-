@@ -1,1 +1,76 @@
-/* You can add global styles to this file, and also import other style files */
+
+body{
+  font-family: 'Poppins', sans-serif !important;
+  background-color: #F8F8F8 !important;
+  font-size: 14px;
+}
+
+p {
+  margin: 0 !important;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 0px !important;
+}
+
+
+/* BOOTSTRAP */
+
+.btn {
+  border-radius: 8px !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #000;
+}
+
+.form-control {
+  background-color: #ffffff;
+}
+
+.form-control:focus {
+  border: 3px solid #c7c3c3 !important;
+  background-color: rgb(255, 255, 255);
+}
+
+.card {
+  border: none;
+  border-radius: 14px;
+}
+
+.btn-light {
+  background-color: rgba(0,0,0,0.2) !important;
+}
+/* Propios */
+.btnSimple{
+  background: #FF6612;
+  color: #fff;
+  width: 150px;
+  height: 50px;
+}
+.btnSimple:hover{
+  background: #a73e06;
+  color: #fff;
+}
+.col{
+  align-items: center;
+}
+.card-osl{
+  margin: 150px 270px;
+  display: flex;
+  padding: 40px;
+  box-shadow: 0px 15px 16.83px 0.17px rgb(0 0 0 / 5%);
+  text-align: center;
+  align-items: center;
+  border-radius: 20px;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+  width: 600px !important;
+}
+.titleosl{
+  color: #545454;
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 1.2;
+}

@@ -1,0 +1,10 @@
+<div class="container my-5">
+  <ul *ngFor="let libro of libros">
+    <li style="font-size: 18px !important;">{{libro | json}}</li>
+  </ul>
+</div>
+<div class="container">
+  <button class="btn btnSimple" routerLink="/">
+    volver
+  </button>
+</div>
